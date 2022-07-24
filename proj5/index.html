@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: grey;
+
+        }
+        .container{
+            margin-top: 20px;
+            border: 2px solid grey;
+            text-align: center;
+        }
+        .notes{
+            display: inline-block;
+            width: 66px;
+            height: 200px;
+            border: 2px solid red;
+
+
+
+        }
+        .notes:hover{
+            cursor: pointer;
+        }
+        .black{
+            background-color: black;
+            height: 150px;
+        }
+        .white{
+            background-color: white;
+        }
+        .black{
+            position: absolute;
+            
+        }
+        .black-a{
+            left: 456px;  
+        }
+        .black-b{
+            left: 533px;
+        }
+        .black-c{
+            left: 679px;
+        }
+        .black-d{
+            left: 754px;
+        }
+        .black-e{
+            left: 829px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="notes white  white-a" ></div>
+        <div class="notes black black-a">black</div>
+        <div class="notes white white-b "></div>
+        <div class="notes black black-b ">black</div>
+        <div class="notes white white-c"></div>
+        <div class="notes white white-d"></div>
+        <div class="notes black black-c">black</div>
+        <div class="notes white"></div>
+        <div class="notes black black-d">black</div>
+        <div class="notes white"></div>
+        <div class="notes black black-e">black</div>
+        <div class="notes white"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
